@@ -1,0 +1,16 @@
+{
+  "name": "@chiel/a",
+  "version": "0.0.0",
+  "description": "CHIEL:A",
+  "author": "chiel",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "github:chiel/ts-monorepo",
+    "directory": "packages/a"
+  },
+  "main": "dist",
+  "files": [
+    "dist"
+  ]
+}
