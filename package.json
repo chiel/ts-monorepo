@@ -6,5 +6,11 @@
   "repoitory": "github:chiel/ts-monorepo",
   "workspaces": [
     "packages/*"
-  ]
+  ],
+  "scripts": {
+    "clean": "rm -rf packages/*/{dist,*.tsbuildinfo}"
+  },
+  "devDependencies": {
+    "typescript": "^4.2.3"
+  }
 }
