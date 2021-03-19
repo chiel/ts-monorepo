@@ -3,5 +3,8 @@
   "author": "chiel",
   "name": "ts-monorepo",
   "license": "MIT",
-  "repoitory": "github:chiel/ts-monorepo"
+  "repoitory": "github:chiel/ts-monorepo",
+  "workspaces": [
+    "packages/*"
+  ]
 }
